@@ -48,8 +48,6 @@ class ArrayIns
 	{
 		nElems=max;
 		rect=new Rect[nElems];
-		a=new long[nElems];
-		
 		int x=100;
 		for(int i=0;i<nElems;i++)
 		{
