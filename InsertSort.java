@@ -60,14 +60,6 @@ class ArrayIns
 			x+=1000/nElems;
 		}
 	}
-	public void display()
-	{
-		for(int j=0;j<nElems;j++)
-		{
-			System.out.print(a[j]+" ");
-		}
-		System.out.println("");
-	}
 	public void insertionSort(Graphics2D g2d)
 	{
 		int in,out;
