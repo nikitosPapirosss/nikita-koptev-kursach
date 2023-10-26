@@ -65,8 +65,6 @@ class ArrayIns
 		for(out=1;out<nElems;out++)
 		{
 			temp=rect[out];
-			//temp.height=rect[out].height;
-			//temp.x=rect[out].x;
 			in=out;
 			while(in>0 && rect[in-1].height>=temp.height)
 			{
